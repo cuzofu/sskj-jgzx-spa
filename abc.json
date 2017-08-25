@@ -1,0 +1,28 @@
+{
+  "name": "sskj-jgzx-spa",
+  "options": {
+    "type": "uxcore",
+    "template": "C:\\Users\\chenliang\\.nowa-gui\\template\\nowa-template-uxcore-v_4",
+    "npm": "http://registry.npm.taobao.org",
+    "vars": {
+      "__LOCAL__": true
+    },
+    "buildvars": {
+      "__LOCAL__": [false]
+    },
+    "pages": false,
+    "injects": [
+      "uxcore/assets/iconfont.css",
+      "uxcore/assets/orange.css",
+      "uxcore"
+    ],
+    "alias": {
+      "components":"components",
+      "db":"app/db.js",
+      "variables":"app/variables.js"
+    },
+    "mockapi": {
+      "/mock/user/query.json": "mock/user/query.js"
+    }
+  }
+}
